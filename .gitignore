@@ -1,0 +1,15 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+*.log
+.DS_Store
+
+# Keystores de producción NUNCA al repositorio (el de desarrollo en src/main/resources/keystore SÍ se versiona)
+*.jks
+/keystore-prod/
+.env
